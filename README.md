@@ -33,7 +33,13 @@ def max_marks(marks):
 iii) # To find the maximum marks without using builtin functions.
 ```Python
 
-
+def max_marks(list1):
+    # write your code here
+    max = list1[0]
+    for i in list1:
+        if i>max:
+            max=i
+    return max
 
 ```
 ## Output:
